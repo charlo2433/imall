@@ -1,6 +1,7 @@
 package com.example.charlo.ecommerce;
 
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class SpacingItemDecoration extends RecyclerView.ItemDecoration {
     private int spanCount;

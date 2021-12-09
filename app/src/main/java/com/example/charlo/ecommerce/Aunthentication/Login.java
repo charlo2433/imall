@@ -2,10 +2,6 @@ package com.example.charlo.ecommerce.Aunthentication;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -16,12 +12,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.charlo.ecommerce.Activity.Admin.AdminCategoryActivity;
 import com.example.charlo.ecommerce.HomeActivity;
 import com.example.charlo.ecommerce.Model.Users;
 import com.example.charlo.ecommerce.Prevalent.Prevalent;
 import com.example.charlo.ecommerce.R;
 import com.example.charlo.ecommerce.Security;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

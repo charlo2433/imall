@@ -1,10 +1,11 @@
 package com.example.charlo.ecommerce;
 
 
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.charlo.ecommerce.fragment.PaymentSuccessDialog;
 import com.google.android.gms.maps.GoogleMap;

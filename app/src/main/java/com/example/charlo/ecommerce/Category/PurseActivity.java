@@ -39,8 +39,7 @@ public class PurseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_purse);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         if(bundle !=null){

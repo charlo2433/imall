@@ -61,7 +61,7 @@
 
 
 
-    <android.support.v7.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/complain"
         style="@style/EditText.Flat.Grey"
         android:layout_width="@dimen/_300sdp"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -49,78 +49,70 @@
                     android:layout_width="@dimen/spacing_middle"
                     android:layout_height="0dp" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/laptop"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:tint="@android:color/white"
-                    app:backgroundTint="@color/colorPrimary"
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/laps"
+                    app:tint="@android:color/white"
                     app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/laptops" />
+                    app:rippleColor="@android:color/white" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/phone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/spacing_large"
                     android:clickable="true"
-                    android:tint="@android:color/white"
-                    app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/mobiles" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/mobile"
+                    app:tint="@android:color/white"
+                    app:fabSize="normal" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/shoes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/spacing_large"
                     android:clickable="true"
-                    android:tint="@android:color/white"
-                    app:backgroundTint="@color/colorPrimary"
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/shoess"
                     app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/shoess" />
+                    app:rippleColor="@android:color/white" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/purse"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/spacing_middle"
                     android:clickable="true"
-                    android:tint="@android:color/white"
-                    app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/purses_bags" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/purses_bag"
+                    app:rippleColor="@android:color/white" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/tshirts"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/spacing_large"
                     android:clickable="true"
                     android:tint="@android:color/white"
-                    app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/sports" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/sports_soccer" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/baby"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/spacing_large"
                     android:clickable="true"
                     android:tint="@android:color/white"
-                    app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/baby1" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/child_care"/>
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/dress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -128,11 +120,11 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/dress"
                     app:srcCompat="@drawable/dress" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/suits"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -140,11 +132,10 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/sweather" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/sweather" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/game"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -152,10 +143,10 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/gamecontroller" />
-                <android.support.design.widget.FloatingActionButton
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/videogame" />
+
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -163,10 +154,10 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/ic_tv" />
-                <android.support.design.widget.FloatingActionButton
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/ic_baseline_tv" />
+
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/beauty"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -174,23 +165,21 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/beauty" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/beauty" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                 android:id="@+id/glass"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/spacing_large"
                 android:clickable="true"
                 android:tint="@android:color/white"
-                app:backgroundTint="@color/colorPrimary"
-                app:fabSize="normal"
-                app:rippleColor="@android:color/white"
-                app:srcCompat="@drawable/glasses" />
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/glasses" />
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/headphone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -198,11 +187,10 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/headphoness" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/headphoness"/>
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/watch"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -210,11 +198,10 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/watches" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/ic_baseline_watch"/>
 
-                <android.support.design.widget.FloatingActionButton
+                <com.rey.material.widget.FloatingActionButton
                     android:id="@+id/hat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -222,9 +209,8 @@
                     android:clickable="true"
                     android:tint="@android:color/white"
                     app:backgroundTint="@color/colorPrimary"
-                    app:fabSize="normal"
-                    app:rippleColor="@android:color/white"
-                    app:srcCompat="@drawable/hats" />
+                    app:fab_backgroundColor="@color/colorPrimary"
+                    app:fab_iconSrc="@drawable/hats" />
 
 
             </LinearLayout>
@@ -241,17 +227,17 @@
         android:textColor="@color/pink"
         android:textStyle="bold" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
 
 
 
 </LinearLayout>
 
 
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 

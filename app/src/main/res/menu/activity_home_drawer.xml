@@ -7,26 +7,32 @@
         <item
             android:id="@+id/nav_cart"
             android:icon="@drawable/ic_add_shopping_cart"
+            android:iconTint="@android:color/black"
             android:title="Order" />
         <item
             android:id="@+id/nav_search"
             android:icon="@drawable/ic_search"
+            android:iconTint="@android:color/black"
             android:title="Search" />
         <item
             android:id="@+id/nav_confirm"
             android:icon="@drawable/category"
+            android:iconTint="@android:color/black"
             android:title="Confirm Order Received" />
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_manage"
+            android:iconTint="@android:color/black"
             android:title="Setting" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_contacts_black_24dp"
+            android:iconTint="@android:color/black"
             android:title="About" />
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout"
+            android:iconTint="@android:color/black"
             android:title="Logout" />
     </group>
 

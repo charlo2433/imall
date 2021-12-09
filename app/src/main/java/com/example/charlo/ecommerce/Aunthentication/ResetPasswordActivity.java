@@ -44,8 +44,6 @@ public class ResetPasswordActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
         check = getIntent().getStringExtra("check");
 
         phone_no = findViewById(R.id.phone_number);

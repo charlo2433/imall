@@ -14,7 +14,7 @@
         android:hint="Name"
         android:minHeight="@dimen/spacing_xmlarge" />
 
-    <android.support.v7.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/msgMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -40,8 +40,7 @@ public class Glasses extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_glasses);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         if(bundle !=null){

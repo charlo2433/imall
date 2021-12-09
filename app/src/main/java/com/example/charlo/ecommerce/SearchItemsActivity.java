@@ -37,8 +37,8 @@ public class SearchItemsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_items);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
 
         recyclerView = findViewById(R.id.product_search);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 2));

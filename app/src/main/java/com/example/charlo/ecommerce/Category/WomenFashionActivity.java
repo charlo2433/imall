@@ -39,8 +39,7 @@ public class WomenFashionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_women_fashion);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         if(bundle !=null){

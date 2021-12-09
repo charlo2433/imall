@@ -7,13 +7,54 @@
         <entry key="app/src/main/res/drawable/btn_rect_primary.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/btnstyle.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/buttonstyle.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/activity_admin_add_new_product.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_admin_category.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_admin_maintain_products.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_baby.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_beauty.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_books.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_cart.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_check_out.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_confirm_order.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_contact_us.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_contact_us_.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_hat.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_laptop.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_men_fashion.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_mobile.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_order_receieved.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_ordered_items.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_products_detail.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_purse.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_reset_password.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_search_items.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_suits.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_television.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_watch.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_women_clothes.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_women_fashion.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/adminorderitems_layout.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/cart_item_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/confirm_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/content_home.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_fragment_confirmation.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_fragment_payment.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_fragment_shipping.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_order_items.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_payment_dialog_success.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/message.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/new_password.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/order_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/product_items_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/search_item_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/menu/activity_home_drawer.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>

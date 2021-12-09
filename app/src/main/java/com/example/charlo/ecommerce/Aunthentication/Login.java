@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -151,7 +152,11 @@ public class Login extends AppCompatActivity {
             loadingBar.setCanceledOnTouchOutside(false);
             loadingBar.show();
 
-            AllowAccessToAccount(phone, pwd);
+            if(parentDbName.equals("User")) {
+                AllowAccessToAccount(phone, pwd);
+            }else{
+                AllowAccessToAccount(phone, password);
+            }
         }
 
 
@@ -178,6 +183,7 @@ public class Login extends AppCompatActivity {
                 {
                     Users usersData = dataSnapshot.child(parentDbName).child(phone).getValue(Users.class);
 
+                    assert usersData != null;
                     if (usersData.getPhone().equals(phone))
                     {
                         if (usersData.getPassword().equals(password))
@@ -202,7 +208,7 @@ public class Login extends AppCompatActivity {
                         else
                         {
                             loadingBar.dismiss();
-                            Toasty.error(getApplicationContext(), "Password is incorrect.", Toast.LENGTH_LONG).show();
+                            Toasty.error(getApplicationContext(), dataSnapshot.toString(), Toast.LENGTH_LONG).show();
                         }
                     }
                 }
@@ -215,7 +221,7 @@ public class Login extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-
+                Log.e("error", databaseError.toString());
             }
         });
     }

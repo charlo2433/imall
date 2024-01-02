@@ -121,8 +121,9 @@ public class CartActivity extends AppCompatActivity {
                         holder.txtproductprice.setText(model.getPrice());
                         Picasso.get().load(model.getImage()).into(holder.imageView);
 
-                        int productPrice = ((Integer.valueOf(model.getPrice()))) * Integer.valueOf(model.getQuantity());
+                        int productPrice = ((Integer.parseInt(model.getPrice()))) * Integer.valueOf(model.getQuantity());
                         totalPrice = totalPrice + productPrice;
+
 
 
                         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -178,6 +179,8 @@ public class CartActivity extends AppCompatActivity {
                 };
         recyclerView.setAdapter(adapter);
         adapter.startListening();
+
+       txtTotalAmount.setText(totalPrice);
     }
 
     private void checkCompleteOrder(){

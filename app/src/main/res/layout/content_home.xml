@@ -67,7 +67,7 @@
                     android:layout_margin="@dimen/spacing_large"
                     android:clickable="true"
                     app:fab_backgroundColor="@color/colorPrimary"
-                    app:fab_iconSrc="@drawable/mobile"
+                    app:fab_iconSrc="@drawable/mobiles"
                     app:tint="@android:color/white"
                     app:fabSize="normal" />
 
